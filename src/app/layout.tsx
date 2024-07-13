@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { ConfigProvider } from 'antd';
+import token_theme from "@/themes/theme.json";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +18,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <ConfigProvider
+          theme={token_theme}
+        >
+          {children}
+        </ConfigProvider>
+      </body>
     </html>
   );
 }

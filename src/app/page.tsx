@@ -1,10 +1,9 @@
 import React from 'react';
-// import { Button } from 'antd';
-import { ButtonZentimail } from '@/components';
+import { Button } from '@/components';
 
 const Home = () => (
   <div className="App">
-    <ButtonZentimail type="primary">Button</ButtonZentimail>
+    <Button type="filled">Perro</Button>
   </div>
 );
 

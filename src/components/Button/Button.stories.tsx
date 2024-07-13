@@ -1,14 +1,14 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { ButtonZentimail } from './ButtonZentimail';
+import { Button } from './Button';
 
 const meta = {
-  title: 'Zentimail/ButtonZentimail',
-  component: ButtonZentimail,  // Note: Changed from 'components' to 'component'
+  title: 'Zentimail/Button',
+  component: Button, 
   parameters: {
     layout: 'centered',
   },
   tags: ['autodocs'],  // Note: Changed from 'autodogs' to 'autodocs'
-} satisfies Meta<typeof ButtonZentimail>;
+} satisfies Meta<typeof Button>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;

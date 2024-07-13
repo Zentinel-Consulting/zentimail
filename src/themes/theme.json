@@ -1,0 +1,29 @@
+{
+  "token": {
+    "colorSuccess": "#34a853",
+    "colorPrimary": "#4285f4",
+    "colorInfo": "#4285f4",
+    "colorWarning": "#fbbc04",
+    "colorError": "#ed6357"
+  },
+  "components": {
+    "Button": {
+      "borderRadius": 20
+    },
+    "Layout": {
+      "bodyBg": "rgb(255, 255, 255)",
+      "footerBg": "rgb(255, 255, 255)",
+      "headerBg": "rgb(255, 255, 255)",
+      "headerColor": "rgba(255, 255, 255, 0.88)"
+    },
+    "Menu": {
+      "subMenuItemBg": "rgba(244, 244, 244, 0.02)"
+    },
+    "Upload": {
+      "colorPrimary": "rgb(3, 131, 255)"
+    },
+    "Tag": {
+      "borderRadiusSM": 20
+    }
+  }
+}

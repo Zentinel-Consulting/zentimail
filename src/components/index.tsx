@@ -1,1 +1,1 @@
-export { ButtonZentimail } from "./ButtonZentimail/ButtonZentimail.tsx";
+export { Button } from "./Button/Button.tsx";
