@@ -12,6 +12,8 @@ const meta = {
   argTypes: {
     onSearch: { action: 'searched' },
     loading: { control: 'boolean' },
+    placeholder: { control: 'text' },
+    width: { control: 'number' },
   },
 } satisfies Meta<typeof SearchBox>;
 
@@ -21,12 +23,24 @@ type Story = StoryObj<typeof meta>;
 export const Default: Story = {
   args: {
     loading: false,
+    placeholder: "input search text",
+    width: 200,
   },
 };
 
 export const Loading: Story = {
   args: {
     loading: true,
+    placeholder: "Searching...",
+    width: 200,
+  },
+};
+
+export const CustomWidth: Story = {
+  args: {
+    loading: false,
+    placeholder: "Wide search box",
+    width: 300,
   },
 };
 
@@ -47,7 +61,12 @@ export const Interactive: Story = {
 
     return (
       <div>
-        <SearchBox {...args} onSearch={handleSearch} loading={isLoading} />
+        <SearchBox 
+          {...args} 
+          onSearch={handleSearch} 
+          loading={isLoading} 
+          placeholder="Try searching..."
+        />
         {searchTerm && !isLoading && (
           <p>Last search: {searchTerm}</p>
         )}

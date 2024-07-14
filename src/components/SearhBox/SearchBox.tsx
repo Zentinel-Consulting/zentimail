@@ -35,7 +35,9 @@ export const SearchBox: React.FC<SearchBoxProps> = ({
       style={{
         width: 200,
       }}
+      loading={loading}
     />
     </ConfigProvider>
   );
 }
+
