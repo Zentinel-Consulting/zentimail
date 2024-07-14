@@ -1,9 +1,10 @@
 import React from 'react';
 import { Button } from '@/components';
+import { HomeOutlined } from '@ant-design/icons';
 
 const Home = () => (
   <div className="App">
-    <Button type="filled">Perro</Button>
+    <Button type="icon"><HomeOutlined /></Button>
   </div>
 );
 
