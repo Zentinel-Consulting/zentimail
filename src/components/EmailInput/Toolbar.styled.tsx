@@ -7,7 +7,7 @@ export const MainContainer = styled.div`
   justify-content: center;
   width: 100%;
   height: 100%;
-  background-color: red;
+  background-color: transparent;
 `;
 export const ButtonsContainer =  styled.div`
   display: flex; 
@@ -16,5 +16,5 @@ export const ButtonsContainer =  styled.div`
   align-items: space-between;
   width: 90%;
   height: 90%;
-  background-color: orange;
+  background-color: transparent;
 `;
