@@ -12,7 +12,7 @@ import {
 
 interface ImageObject {
   src: string;
-  name: string;
+  fileName: string;
 }
 
 interface MediaListHolderProps {
@@ -56,7 +56,7 @@ export const MediaListHolder: React.FC<MediaListHolderProps> = ({ images, cardWi
               <MediaPreview 
                 key={index}
                 src={image.src} 
-                imageName={image.name} 
+                fileName={image.fileName} 
                 cardWidth={cardWidth}
               />
             ))}

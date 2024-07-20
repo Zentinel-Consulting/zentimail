@@ -18,12 +18,12 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 const sampleImages = [
-  { src: "https://static.euronews.com/articles/stories/08/57/48/90/1200x675_cmsv2_7585d7f8-a3d3-5f22-9a63-721911271959-8574890.jpg", name: "image1.jpg" },
-  { src: "https://static.euronews.com/articles/stories/08/57/48/90/1200x675_cmsv2_7585d7f8-a3d3-5f22-9a63-721911271959-8574890.jpg", name: "image2.jpg" },
-  { src: "https://static.euronews.com/articles/stories/08/57/48/90/1200x675_cmsv2_7585d7f8-a3d3-5f22-9a63-721911271959-8574890.jpg", name: "image3.jpg" },
-  { src: "https://static.euronews.com/articles/stories/08/57/48/90/1200x675_cmsv2_7585d7f8-a3d3-5f22-9a63-721911271959-8574890.jpg", name: "image4.jpg" },
-  { src: "https://static.euronews.com/articles/stories/08/57/48/90/1200x675_cmsv2_7585d7f8-a3d3-5f22-9a63-721911271959-8574890.jpg", name: "image5.jpg" },
-  { src: "https://static.euronews.com/articles/stories/08/57/48/90/1200x675_cmsv2_7585d7f8-a3d3-5f22-9a63-721911271959-8574890.jpg", name: "image6.jpg" },
+  { src: "https://static.euronews.com/articles/stories/08/57/48/90/1200x675_cmsv2_7585d7f8-a3d3-5f22-9a63-721911271959-8574890.jpg", fileName: "image1.jpg" },
+  { src: "https://static.euronews.com/articles/stories/08/57/48/90/1200x675_cmsv2_7585d7f8-a3d3-5f22-9a63-721911271959-8574890.jpg", fileName: "image2.jpg" },
+  { src: "https://static.euronews.com/articles/stories/08/57/48/90/1200x675_cmsv2_7585d7f8-a3d3-5f22-9a63-721911271959-8574890.jpg", fileName: "image3.jpg" },
+  { src: "https://static.euronews.com/articles/stories/08/57/48/90/1200x675_cmsv2_7585d7f8-a3d3-5f22-9a63-721911271959-8574890.jpg", fileName: "image4.jpg" },
+  { src: "https://static.euronews.com/articles/stories/08/57/48/90/1200x675_cmsv2_7585d7f8-a3d3-5f22-9a63-721911271959-8574890.jpg", fileName: "image5.jpg" },
+  { src: "https://static.euronews.com/articles/stories/08/57/48/90/1200x675_cmsv2_7585d7f8-a3d3-5f22-9a63-721911271959-8574890.jpg", fileName: "image6.jpg" },
 ];
 
 export const Default: Story = {
